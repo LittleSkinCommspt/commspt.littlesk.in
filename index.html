@@ -1,0 +1,114 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="A support team of LittleSkin, powered by community." />
+    <link rel="icon" href="./community.png">
+    <link rel="preload" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.sourcegcdn.com/css?family=Merriweather|Overpass+Mono&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.sourcegcdn.com/css?family=Megrim|Overpass+Mono&display=swap">
+    </noscript>
+    <style>
+        @import "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bulma/0.9.3/css/bulma.min.css";
+
+        .font-serif {
+            font-family: 'Merriweather', serif;
+            font-display: swap;
+        }
+
+        .footer {
+            padding: 1rem;
+            background-color: white;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | LittleSkin Commspt</title>
+    <script language="javascript">
+        function Tab(num) {
+            var i;
+            for (i = 1; i <= 4; i++) {
+                if (i == num)
+                    document.getElementById("d" + i).style.display = "block",
+                        document.getElementById("L" + i).class = "is-active";
+                else
+                    document.getElementById("d" + i).style.display = "none",
+                        document.getElementById("L" + i).class = "";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+        </div>
+    </nav>
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="container column is-half">
+
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128">
+                            <img src="./community.png" alt="Avatar of Nofated">
+                        </figure>
+                    </div>
+                    <div class="column is-auto">
+                        <h1 class="title font-serif">
+                            LittleSkin Commspt
+                        </h1>
+                        <p></p>
+                        <div class="tabs font-serif">
+                            <ul>
+                                <!--li class="is-active" id="L1" onclick="Tab(1)"><a>Home</a></li -->
+                                <li id="L1" onclick="Tab(1)"><a>Home</a></li>
+                                <li><a target="_blank" href='https://github.com/LittleSkinCommspt'>GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content font-serif" id="d1">
+                    <h3>About us</h3>
+                    <p>LittleSkin Commspt - is a support team of <a href="https://github.com/LittleSkinChina"
+                            target="_blank">LittleSkin</a>, which is 2nd-largest Minecraft skin hosting service provider
+                        in Mainland China.
+                    </p>
+                    <p>
+                        🏆 We are an officially accredited support team, although we are not officially part
+                        of it in the strictest sense.
+                    </p>
+                    <p>
+                        💖 Our team is made up of a community of members who are all the fans of LittleSkin.
+                    </p>
+                    <p>
+                        💁🏻 Our job is to assist the official team in providing technical support and answering
+                        questions for users.
+                    </p>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>support📧commspt.littlesk.in</li>
+                        <li>GitHub <a href="https://github.com/LittleSkinCommspt" target="_blank">@LittleSkinCommspt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered font-serif">
+            <p class="light">
+                <img src="//i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
